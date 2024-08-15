@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Funciona = () => {
+const Func = () => {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center py-10">
       <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
@@ -54,4 +54,4 @@ const Funciona = () => {
   );
 };
 
-export default Funciona;
+export default Func;

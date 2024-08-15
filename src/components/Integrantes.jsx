@@ -3,14 +3,6 @@ import React from 'react';
 const Integrantes = () => {
   return (
     <div className="bg-black text-white min-h-screen p-8">
-      <header className="text-green-500 text-2xl font-bold mb-8">Smell Pro</header>
-      <nav className="flex justify-center space-x-8 text-gray-400 mb-12">
-        <a href="#" className="hover:text-white">Funcionamento</a>
-        <a href="#" className="hover:text-white">Projeto</a>
-        <a href="#" className="hover:text-white">Materiais</a>
-        <a href="#" className="hover:text-white">Bibliografia</a>
-        <a href="#" className="hover:text-white">Integrantes</a>
-      </nav>
       <div className="text-center">
         <h1 className="text-4xl font-bold">Quem são os</h1>
         <h2 className="text-5xl font-bold text-orange-500 mb-12">Integrantes?</h2>
@@ -45,7 +37,7 @@ const Integrantes = () => {
           <img
             src="./src/assets/vitor.svg"
             alt="Vitor Tigre"
-            className="w-48 h-48 object-cover rounded-lg mb-4"
+            className="w-98 h-48 object-cover rounded-lg mb-4"
           />
           <h3 className="text-xl font-bold">Vitor Tigre</h3>
           <p className="text-sm text-gray-300 max-w-xs mx-auto">

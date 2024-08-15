@@ -29,20 +29,7 @@ const ComponentsUsedPage = () => {
   ];
 
   return (
-    <div className="bg-black text-white min-h-screen p-8">
-      <header className="text-center mb-8">
-        <h1 className="text-5xl font-bold text-yellow-500">Smell Pro</h1>
-        <nav className="mt-4">
-          <ul className="flex justify-center space-x-4">
-            <li><a href="#" className="text-white">Funcionamento</a></li>
-            <li><a href="#" className="text-white">Projeto</a></li>
-            <li><a href="#" className="text-white">Materiais</a></li>
-            <li><a href="#" className="text-white">Bibliografia</a></li>
-            <li><a href="#" className="text-white">Integrantes</a></li>
-          </ul>
-        </nav>
-      </header>
-      
+    <div className="bg-black text-white min-h-screen p-8">  
       <main className="bg-black rounded-lg p-8">
         <h2 className="text-4xl font-bold text-center text-white mb-6">Quais <span className="text-orange-500">Componentes</span> Foram Utilizados?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

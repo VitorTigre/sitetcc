@@ -3,19 +3,6 @@ import React from 'react';
 const SmellProPage = () => {
   return (
     <div className="bg-black text-white min-h-screen p-8">
-      <header className="text-center mb-8">
-        <h1 className="text-5xl font-bold text-yellow-500">Smell Pro</h1>
-        <nav className="mt-4">
-          <ul className="flex justify-center space-x-4">
-            <li><a href="#" className="text-white">Funcionamento</a></li>
-            <li><a href="#" className="text-white">Projeto</a></li>
-            <li><a href="#" className="text-white">Materiais</a></li>
-            <li><a href="#" className="text-white">Bibliografia</a></li>
-            <li><a href="#" className="text-white">Integrantes</a></li>
-          </ul>
-        </nav>
-      </header>
-      
       <main className="bg-black rounded-lg p-8">
         <h2 className="text-4xl font-bold text-yellow-500 mb-6">Por que o <span className="text-orange-500">Smell Pro?</span></h2>
         <div className="flex flex-col md:flex-row items-center">
