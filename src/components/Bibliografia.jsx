@@ -1,10 +1,10 @@
 import React from 'react';
 
-const SmellProPage = () => {
+const PageBibliografia = () => {
   return (
     <div className="bg-black text-white min-h-screen p-8">
       <main className="bg-black rounded-lg p-8">
-        <h2 className="text-4xl font-bold text-yellow-500 mb-6">Por que o <span className="text-orange-500">Smell Pro?</span></h2>
+        <h2 className="text-6xl font-bold text-white-500 mb-6">Por que o <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Smell Pro?</span></h2>
         <div className="flex flex-col md:flex-row items-center">
           <div className="flex-1 text-white">
             <p className="mb-4">
@@ -26,15 +26,15 @@ const SmellProPage = () => {
         </div>
       </main>
       
-      <footer className="mt-8 bg-yellow-500 text-black rounded-lg p-6">
-        <h3 className="text-xl font-bold mb-4">ENCONTRE MAIS INFORMAÇÕES NOS LINKS ABAIXO:</h3>
+      <footer className="mt-8 bg-gray-700 text-black rounded-lg p-6 border-2 border-orange-500">
+        <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">ENCONTRE MAIS INFORMAÇÕES NOS LINKS ABAIXO:</h3>
         <ul>
-          <li className="mb-2">
+          <li className="mb-2 text-white">
             <strong>DIAS, Fernanda Beatriz De Medeiros.</strong> Marketing olfativo no comércio varejista: estudo multicaso em empresas de Natal/Rio Grande do Norte. UFRN, 2023.
             <br />
             Disponível em: <a href="https://repositorio.ufrn.br/handle/123456789/57062" className="text-blue-500">https://repositorio.ufrn.br/handle/123456789/57062</a>. Acesso em: 19 maio 2024.
           </li>
-          <li>
+          <li className="mb-2 text-white">
             <strong>LISBOA, Henrique De Melo.</strong> Gestão de odores: fundamentos do Nariz Eletrônico. SciELO, 2009.
             <br />
             Disponível em: <a href="https://www.scielo.br/j/esa/a/W9brD6CDt4ThpSQLmy48grg/" className="text-blue-500">https://www.scielo.br/j/esa/a/W9brD6CDt4ThpSQLmy48grg/</a>. Acesso em: 19 maio 2024.
@@ -45,4 +45,4 @@ const SmellProPage = () => {
   );
 };
 
-export default SmellProPage;
+export default PageBibliografia;

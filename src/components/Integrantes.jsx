@@ -1,13 +1,14 @@
 import React from 'react';
 
-const Integrantes = () => {
+const PageIntegrantes = () => {
   return (
     <div className="bg-black text-white min-h-screen p-8">
       <div className="text-center">
-        <h1 className="text-4xl font-bold">Quem são os</h1>
-        <h2 className="text-5xl font-bold text-orange-500 mb-12">Integrantes?</h2>
+        <h1 className="text-5xl font-bold">Quem são os</h1>
+        <h2 className="text-6xl font-bold bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-12">Integrantes?</h2>
       </div>
       <div className="flex justify-center space-x-8">
+
         {/* Integrante 1 */}
         <div className="text-center">
           <img
@@ -20,6 +21,7 @@ const Integrantes = () => {
           Ryan Moreira Silva, tenho 17 anos, sou fascinado em pagar boquete parafuso beeeem babado e tomar cerveja enquanto jogo sinuca, gosto de dirigir em altas velocidades após cheirar pó na bunda de travestis 
           </p>
         </div>
+
         {/* Integrante 2 */}
         <div className="text-center">
           <img
@@ -32,6 +34,7 @@ const Integrantes = () => {
           Lucas Lopes Da Paixão Nogueira,  18 anos, gay de carterinha desde que me entendo por gente, nunca dei, mas estou disposto a desbravar novos horizontes, ou melhor, novos buracos
           </p>
         </div>
+        
         {/* Integrante 3 */}
         <div className="text-center">
           <img
@@ -49,4 +52,4 @@ const Integrantes = () => {
   );
 };
 
-export default Integrantes;
+export default PageIntegrantes;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ComponentsUsedPage = () => {
+const PageMateriais = () => {
   const components = [
     {
       image: './src/assets/arduino.svg',
@@ -46,4 +46,4 @@ const ComponentsUsedPage = () => {
   );
 };
 
-export default ComponentsUsedPage;
+export default PageMateriais;
