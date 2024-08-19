@@ -3,7 +3,7 @@ import React from 'react';
 // Componente Card para exibir os elementos com ícone, título e descrição
 const Card = ({ title, imageSrc, description }) => {
   return (
-    <div className="bg-orange-500 text-white p-6 rounded-lg shadow-md mb-8">
+    <div className="bg-orange-500 text-white p-6 rounded-lg shadow-md mb-6">
       <div className="flex justify-center mb-4">
         <img src={imageSrc} alt={title} className="w-16 h-16 object-contain" />
       </div>
@@ -27,34 +27,52 @@ function PageFuncionamento() {
           O funcionamento do Smell Pro baseia-se em <span className="text-orange-500">quatro elementos principais</span>, que detalharemos a seguir:
         </p>
       </header>
-      
-      <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
-        <img src="./src/assets/dispositivoDifusao.svg" alt="" />
-        <img src="./src/assets/cartuchos.svg" alt="" />
-        <img src="./src/assets/tecnologia.svg" alt="" />
-        <img src="./src/assets/configuracao.svg" alt="" />
-      </main>
 
       <section className="mt-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           <Card
             title="DISPOSITIVOS DE DIFUSÃO"
-            imageSrc="./src/assets/lucas.svg" 
+            imageSrc="./src/assets/disfus.svg" 
+          />
+
+          <Card
+            title="CARTUCHOS AROMÁTICOS"
+            imageSrc="./src/assets/cartAro.svg"
+          />
+
+          <Card
+            title="TECNOLOGIA DE MICRODIFUSÃO"
+            imageSrc="./src/assets/tecMic.svg"
+
+          />
+          <Card
+            title="CONFIGURAÇÃO PERSONALIZÁVEL"
+            imageSrc="./src/assets/confPerso.svg"
+          />
+        </div>
+      </section>
+
+
+      <section className="mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+          <Card
+            title="DISPOSITIVOS DE DIFUSÃO"
+            imageSrc="./src/assets/disfus.svg" 
             description="Compactos e diretos, fáceis de instalar, liberam aromas de forma controlada e consistente."
           />
           <Card
             title="CARTUCHOS AROMÁTICOS"
-            icon="📦"
+            imageSrc="./src/assets/cartAro.svg"
             description="Contêm misturas exclusivas de aromas, são substituíveis, fáceis de trocar e garantem aromas frescos e contínuos."
           />
           <Card
             title="TECNOLOGIA DE MICRODIFUSÃO"
-            icon="🔬"
+            imageSrc="./src/assets/tecMic.svg"
             description="Dispersa uniformemente partículas de aroma, proporcionando uma experiência olfativa agradável sem exagero."
           />
           <Card
             title="CONFIGURAÇÃO PERSONALIZÁVEL"
-            icon="⚙"
+            imageSrc="./src/assets/confPerso.svg"
             description="Permite ajustar a intensidade e temporização de liberação do aroma, adaptando-se às necessidades específicas do espaço."
           />
         </div>

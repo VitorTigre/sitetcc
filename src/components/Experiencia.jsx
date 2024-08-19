@@ -4,36 +4,35 @@ const PageProjeto = () => {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col items-center">
       
-      {/* Seção Uma Experiência Aromática */}
       <section className="flex flex-col md:flex-row items-center justify-between p-8 w-full">
-        <div className="md:w-1/2">
-          <h1 className="text-4xl font-bold text-orange-500">
-            Uma <span className="text-white">Experiência</span> Aromática
-          </h1>
-          <p className="text-lg mt-4">
-            O Smell Pro é a solução perfeita para transformar a atmosfera do seu estabelecimento
-            alimentício. Utilizando tecnologia avançada e fragrâncias especialmente desenvolvidas,
-            nosso sistema de difusão de aromas cria um ambiente acolhedor e atrativo que faz com que
-            seus clientes queiram voltar sempre.
-          </p>
-          <button className="mt-6 px-6 py-3 bg-orange-500 rounded-full hover:bg-orange-600">
-            Saiba mais
-          </button>
-        </div>
-        <div className="md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
-          <img
-            src="./src/assets/vaiMeNegarUmPratoDeComida.svg" // Substitua pelo URL da sua imagem do prato
-            alt="Prato"
-            className="w-3/4 h-auto rounded-xl shadow-lg"
-          />
-        </div>
-      </section>
+  <div className="md:w-1/2">
+    <h1 className="text-4xl font-bold text-white">
+      Uma <span className="text-4xl font-bold text-orange-500">Experiência</span> <br />
+      Aromática
+    </h1>
+    <p className="text-lg mt-4 text-white">
+      O Smell Pro é a solução perfeita para transformar a atmosfera do seu estabelecimento alimentício. Utilizando tecnologia avançada e fragrâncias especialmente desenvolvidas, nosso sistema de difusão de aromas cria um ambiente acolhedor e atrativo que faz com que seus clientes queiram voltar sempre.
+    </p>
+    <button className="mt-6 px-6 py-3 bg-orange-500 rounded-full hover:bg-orange-600 text-white">
+      Saiba mais
+    </button>
+  </div>
+  <div className="md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+    <img
+      src="./src/assets/vaiMeNegarUmPratoDeComida.svg" // Substitua pelo URL da sua imagem do prato
+      alt="Prato"
+      className="w-60 h-auto rounded-xl shadow-lg"
+    />
+  </div>
+</section>
+
+
 
       {/* Seção Smell Pro */}
       <section className="flex flex-col md:flex-row items-center justify-between p-8 w-full">
         <div className="md:w-1/2 flex justify-center md:justify-start mt-8 md:mt-0">
           <img
-            src="./src/assets/vaiMeNegarUmPratoDeComida.svg" // Substitua pelo URL da sua imagem do Smell Pro
+            src="./src/assets/caixa.svg" // Substitua pelo URL da sua imagem do Smell Pro
             alt="Smell Pro"
             className="w-1/3 h-auto rounded-xl shadow-lg"
           />
@@ -47,11 +46,15 @@ const PageProjeto = () => {
           </p>
           <ul className="mt-4 space-y-4">
             <li className="flex items-center space-x-2">
-              <span className="text-2xl">🌬</span>
+              <div className="bg-orange-500 rounded-full p-2 mb-2">
+                <img src="./src/assets/vento.svg" alt="Vento" />
+              </div>
               <p>O Smell Pro é uma experiência que transforma seu estabelecimento.</p>
             </li>
             <li className="flex items-center space-x-2">
-              <span className="text-2xl">🍴</span>
+            <div className="bg-orange-500 rounded-full p-2 mb-2">
+              <img src="./src/assets/garfoFaca.svg" alt="Garfo e faca" />
+            </div>
               <p>Aromas agradáveis que convidam as pessoas a entrarem e experimentarem seu espaço.</p>
             </li>
           </ul>
@@ -61,8 +64,91 @@ const PageProjeto = () => {
         </div>
       </section>
 
+      {/* Seção de Fragrâncias */}
+      <section className="p-8 w-full">
+        <h1 className="text-4xl font-bold text-center text-orange-500 mb-8">
+          Nossas Fragrâncias
+        </h1>
+        <div className="flex justify-center space-x-8 mb-8">
+          {/* Ícone Chocolate */}
+          <div className="text-center">
+            <div className="bg-orange-500 rounded-full p-4 mb-4">
+              <img src="./src/assets/queijo.svg" alt="Chocolate" />
+            </div>
+            <p>Chocolate</p>
+          </div>
+          {/* Ícone Queijo */}
+          <div className="text-center">
+            <div className="bg-orange-500 rounded-full p-4 mb-4">
+              <img src="./src/assets/queijo.svg" alt="Queijo" />
+            </div>
+            <p>Queijo</p>
+          </div>
+          {/* Ícone Leite Condensado */}
+          <div className="text-center">
+            <div className="bg-orange-500 rounded-full p-4 mb-4">
+              <img src="./src/assets/queijo.svg" alt="Leite Condensado" />
+            </div>
+            <p>Leite Condensado</p>
+          </div>
+        </div>
+        <p className="text-center max-w-xl mx-auto mb-8">
+          Nossas fragrâncias são formuladas com ingredientes naturais, garantindo não só um aroma irresistível, mas também a segurança e bem-estar dos seus clientes. Nosso dispositivo é compacto, discreto e permite ajustes de intensidade e temporização, proporcionando total controle sobre a experiência olfativa do seu ambiente.
+        </p>
+        <div className="flex justify-center">
+          <button className="bg-gray-800 text-white py-2 px-4 rounded">
+            Saiba mais
+          </button>
+        </div>
+      </section>
+
+      {/* Seção Ramo Alimentício */}
+      <section className="mt-16 p-8 w-full">
+        <h2 className="text-4xl font-bold text-center text-orange-500 mb-8">
+          Ramo Alimentício
+        </h2>
+        <p className="text-center max-w-xl mx-auto mb-8">
+          No ramo alimentício, a experiência do cliente é tudo. E uma das maneiras mais eficazes de criar uma conexão emocional com seus clientes é através dos sentidos. O Smell Pro foi desenvolvido especificamente para ajudar donos de restaurantes, cafeterias, padarias, pizzarias e outros estabelecimentos alimentícios a criar uma atmosfera que não apenas acolhe, mas também encanta.
+        </p>
+        <div className="flex justify-center space-x-8 mb-8">
+          {/* Ícone Cozinha */}
+          <div className="text-center">
+            <div className="bg-orange-500 rounded-full p-4 mb-4">
+              <img src="./src/assets/sopa.svg" alt="Sopa" />
+            </div>
+            <p>Cozinha</p>
+          </div>
+          {/* Ícone Café */}
+          <div className="text-center">
+            <div className="bg-orange-500 rounded-full p-4 mb-4">
+              <img src="./src/assets/hotCoffee.svg" alt="Café" />
+            </div>
+            <p>Café</p>
+          </div>
+          {/* Ícone Pão */}
+          <div className="text-center">
+            <div className="bg-orange-500 rounded-full p-4 mb-4">
+              <img src="./src/assets/pao.svg" alt="Pão" />
+            </div>
+            <p>Pão</p>
+          </div>
+          {/* Ícone Pizza */}
+          <div className="text-center">
+            <div className="bg-orange-500 rounded-full p-4 mb-4">
+              <img src="./src/assets/pizza.svg" alt="Pizza" />
+            </div>
+            <p>Pizza</p>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <button className="bg-gray-800 text-white py-2 px-4 rounded">
+            Saiba mais
+          </button>
+        </div>
+      </section>
+      
     </div>
   );
 };
 
-export default PageProjeto;
+export default PageProjeto;
