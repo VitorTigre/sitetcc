@@ -29,10 +29,10 @@ function Navbar() {
         </div>
 
         <div className="hidden md:flex flex-1 justify-center space-x-8">
-          <Link to="/" className="hover:text-yellow-400 text-sm">Integrantes</Link>
+          <Link to="/integrantes" className="hover:text-yellow-400 text-sm">Integrantes</Link>
           <Link to="/bibliografia" className="hover:text-yellow-400 text-sm">Bibliografia</Link>
           <Link to="/materiais" className="hover:text-yellow-400 text-sm">Materiais</Link>
-          <Link to="/experiencia" className="hover:text-yellow-400 text-sm">Projeto</Link>
+          <Link to="/" className="hover:text-yellow-400 text-sm">Projeto</Link>
           <Link to="/funcionamento" className="hover:text-yellow-400 text-sm">Funcionamento</Link>
         </div>
       </div>
