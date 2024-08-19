@@ -11,7 +11,7 @@ const PageIntegrantes = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
-        {/* Integrante 1 */}
+        {/* Ryan Moreira */}
         <div className="text-center">
           <img
             src="./src/assets/ryan.svg"
@@ -27,7 +27,7 @@ const PageIntegrantes = () => {
           </p>
         </div>
 
-        {/* Integrante 2 */}
+        {/* Lucas Lopes */}
         <div className="text-center">
           <img
             src="./src/assets/lucas.svg"
@@ -43,7 +43,7 @@ const PageIntegrantes = () => {
           </p>
         </div>
 
-        {/* Integrante 3 */}
+        {/* Vitor Tigre */}
         <div className="text-center">
           <img
             src="./src/assets/vitor.svg"

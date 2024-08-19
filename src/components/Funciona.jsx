@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Componente Card para exibir os elementos com ícone, título e descrição
 const Card = ({ title, imageSrc, description }) => {
   return (
     <div className="bg-gray-800 border-2 border-orange-500 text-white p-6 rounded-lg shadow-md mb-6">

@@ -5,7 +5,7 @@ const PageProjeto = () => {
     <div className="bg-black text-white min-h-screen flex flex-col items-center">
       
       <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 w-full bg-black">
-  {/* Texto */}
+  
   <div className="md:w-1/2 w-full text-center md:text-left">
     <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
       Uma <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Experiência</span> <br />
@@ -19,7 +19,7 @@ const PageProjeto = () => {
     </button>
   </div>
 
-  {/* Imagem */}
+  
   <div className="md:w-1/2 w-full flex justify-center md:justify-end mt-12 md:mt-0">
     <img
       src="./src/assets/vaiMeNegarUmPratoDeComida.svg" 
@@ -31,7 +31,7 @@ const PageProjeto = () => {
 
 
 
-      {/* Seção Smell Pro */}
+      
       <section className="flex flex-col md:flex-row items-center justify-between p-8 w-full">
         <div className="md:w-1/2 flex justify-center md:justify-start mt-8 md:mt-0">
           <img
@@ -67,7 +67,7 @@ const PageProjeto = () => {
         </div>
       </section>
 
-      {/* Seção de Fragrâncias */}
+    
       <section className="p-8 w-full">
         <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-8">
         <span className="text-4xl font-bold text-white" >Nossos</span> Fragrâncias

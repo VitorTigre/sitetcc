@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Integrantes />} />
+        <Route path="/" element={< Experiencia />} />
         <Route path="/bibliografia" element={<Bibliografia />} />
         <Route path="/materiais" element={<Materiais />} />
-        <Route path="/experiencia" element={<Experiencia />} />
+        <Route path="/integrantes" element={<Integrantes />} />
         <Route path="/funcionamento" element={<Funciona />} />
         
       </Routes>
