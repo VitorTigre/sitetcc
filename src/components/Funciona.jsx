@@ -13,6 +13,18 @@ const Card = ({ title, imageSrc, description }) => {
   );
 };
 
+const Card2 = ({ title, imageSrc, description }) => {
+  return (
+    <div className="bg-orange-500 border-2 border-green-400 text-white p-6 rounded-lg shadow-md mb-6">
+      <div className="flex justify-center mb-4">
+        <img src={imageSrc} alt={title} className="w-16 h-16 object-contain" />
+      </div>
+      <h2 className="text-lg font-semibold mb-2 text-center">{title}</h2>
+      <p className="text-sm text-center">{description}</p>
+    </div>
+  );
+};
+
 
 // Componente principal App
 function PageFuncionamento() {
@@ -30,22 +42,22 @@ function PageFuncionamento() {
 
       <section className="mt-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
-          <Card
+          <Card2
             title="DISPOSITIVOS DE DIFUSÃO"
             imageSrc="./src/assets/disfus.svg" 
           />
 
-          <Card
+          <Card2
             title="CARTUCHOS AROMÁTICOS"
             imageSrc="./src/assets/cartAro.svg"
           />
 
-          <Card
+          <Card2
             title="TECNOLOGIA DE MICRODIFUSÃO"
             imageSrc="./src/assets/tecMic.svg"
 
           />
-          <Card
+          <Card2
             title="CONFIGURAÇÃO PERSONALIZÁVEL"
             imageSrc="./src/assets/confPerso.svg"
           />

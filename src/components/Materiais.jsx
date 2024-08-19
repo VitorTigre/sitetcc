@@ -28,8 +28,8 @@ const CardGrid = () => {
 
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl md:text-6xl font-bold text-white-500 mb-6">
-        Quais <span className="text-orange-500">Componentes</span> Foram Utilizados?
+      <h1 className="text-4xl md:text-6xl font-bold text-center text-white mb-12">
+        Quais <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Componentes</span> <br /> Foram Utilizados?
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {cards.map((card, index) => (
@@ -45,4 +45,4 @@ const CardGrid = () => {
   );
 };
 
-export default CardGrid;
+export default CardGrid;
