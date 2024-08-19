@@ -27,8 +27,7 @@ function Navbar() {
 
         {/* Logotipo posicionado à esquerda no desktop e centralizado no mobile */}
         <div className="text-lg font-bold text-gradient absolute md:static md:left-4 left-1/2 transform -translate-x-1/2 md:translate-x-0">
-          <span className="text-yellow-400">Smell</span>
-          <span className="text-green-500">Pro</span>
+          <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">SmellPro</span>
         </div>
 
         {/* Links de navegação para desktop */}

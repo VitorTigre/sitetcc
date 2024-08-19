@@ -12,9 +12,6 @@ const Card = ({ image, title, subtitle }) => {
   );
 };
 
-
-
-
 const CardGrid = () => {
   const cards = [
     { image: './src/assets/arduino.svg', title: 'Arduino R3', subtitle: 'Placa microcontroladora, o cérebro do sistema' },
@@ -31,6 +28,9 @@ const CardGrid = () => {
 
   return (
     <div className="container mx-auto px-4">
+      <h1 className="text-4xl md:text-6xl font-bold text-white-500 mb-6">
+        Quais <span className="text-orange-500">Componentes</span> Foram Utilizados?
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {cards.map((card, index) => (
           <Card
@@ -45,4 +45,4 @@ const CardGrid = () => {
   );
 };
 
-export default CardGrid;
+export default CardGrid;

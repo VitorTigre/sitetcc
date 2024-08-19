@@ -3,7 +3,7 @@ import React from 'react';
 // Componente Card para exibir os elementos com ícone, título e descrição
 const Card = ({ title, imageSrc, description }) => {
   return (
-    <div className="bg-orange-500 text-white p-6 rounded-lg shadow-md mb-6">
+    <div className="bg-gray-800 border-2 border-orange-500 text-white p-6 rounded-lg shadow-md mb-6">
       <div className="flex justify-center mb-4">
         <img src={imageSrc} alt={title} className="w-16 h-16 object-contain" />
       </div>
@@ -19,7 +19,7 @@ function PageFuncionamento() {
   return (
     <div className="bg-black text-white min-h-screen p-8">
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-white">Como <span className="text-orange-500">Funciona?</span></h1>
+        <h1 className="text-4xl font-bold text-white">Como <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Funciona?</span></h1>
         <p className="mt-4 text-lg">
           Este inovador sistema de difusão de aromas foi especialmente projetado para elevar a atmosfera do seu estabelecimento, combinando tecnologia avançada com facilidade de uso.
         </p>

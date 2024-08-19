@@ -5,28 +5,26 @@ const PageProjeto = () => {
     <div className="bg-black text-white min-h-screen flex flex-col items-center">
       
       <section className="flex flex-col md:flex-row items-center justify-between p-8 w-full">
-  <div className="md:w-1/2">
-    <h1 className="text-4xl font-bold text-white">
-      Uma <span className="text-4xl font-bold text-orange-500">Experiência</span> <br />
-      Aromática
-    </h1>
-    <p className="text-lg mt-4 text-white">
-      O Smell Pro é a solução perfeita para transformar a atmosfera do seu estabelecimento alimentício. Utilizando tecnologia avançada e fragrâncias especialmente desenvolvidas, nosso sistema de difusão de aromas cria um ambiente acolhedor e atrativo que faz com que seus clientes queiram voltar sempre.
-    </p>
-    <button className="mt-6 px-6 py-3 bg-orange-500 rounded-full hover:bg-orange-600 text-white">
-      Saiba mais
-    </button>
-  </div>
-  <div className="md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
-    <img
-      src="./src/assets/vaiMeNegarUmPratoDeComida.svg" // Substitua pelo URL da sua imagem do prato
-      alt="Prato"
-      className="w-60 h-auto rounded-xl shadow-lg"
-    />
-  </div>
-</section>
-
-
+        <div className="md:w-1/2">
+          <h1 className="text-4xl font-bold text-white">
+            Uma <span className="text-4xl font-bold bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Experiência</span> <br />
+            Aromática
+          </h1>
+          <p className="text-lg mt-4 text-white">
+            O Smell Pro é a solução perfeita para transformar a atmosfera do seu estabelecimento alimentício. Utilizando tecnologia avançada e fragrâncias especialmente desenvolvidas, nosso sistema de difusão de aromas cria um ambiente acolhedor e atrativo que faz com que seus clientes queiram voltar sempre.
+          </p>
+          <button className="mt-6 px-6 py-3 bg-orange-500 rounded-full hover:bg-orange-600 text-white">
+            Saiba mais
+          </button>
+        </div>
+        <div className="md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src="./src/assets/vaiMeNegarUmPratoDeComida.svg" // Substitua pelo URL da sua imagem do prato
+            alt="Prato"
+            className="w-60 h-auto rounded-xl shadow-lg"
+          />
+        </div>
+      </section>
 
       {/* Seção Smell Pro */}
       <section className="flex flex-col md:flex-row items-center justify-between p-8 w-full">
@@ -38,7 +36,7 @@ const PageProjeto = () => {
           />
         </div>
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          <h2 className="text-3xl font-bold text-orange-500">
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">
             Nossos <span className="text-white">Serviços</span>
           </h2>
           <p className="text-lg mt-4">
@@ -52,9 +50,9 @@ const PageProjeto = () => {
               <p>O Smell Pro é uma experiência que transforma seu estabelecimento.</p>
             </li>
             <li className="flex items-center space-x-2">
-            <div className="bg-orange-500 rounded-full p-2 mb-2">
-              <img src="./src/assets/garfoFaca.svg" alt="Garfo e faca" />
-            </div>
+              <div className="bg-orange-500 rounded-full p-2 mb-2">
+                <img src="./src/assets/garfoFaca.svg" alt="Garfo e faca" />
+              </div>
               <p>Aromas agradáveis que convidam as pessoas a entrarem e experimentarem seu espaço.</p>
             </li>
           </ul>
@@ -66,7 +64,7 @@ const PageProjeto = () => {
 
       {/* Seção de Fragrâncias */}
       <section className="p-8 w-full">
-        <h1 className="text-4xl font-bold text-center text-orange-500 mb-8">
+        <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-8">
           Nossas Fragrâncias
         </h1>
         <div className="flex justify-center space-x-8 mb-8">
@@ -104,7 +102,7 @@ const PageProjeto = () => {
 
       {/* Seção Ramo Alimentício */}
       <section className="mt-16 p-8 w-full">
-        <h2 className="text-4xl font-bold text-center text-orange-500 mb-8">
+        <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-8">
           Ramo Alimentício
         </h2>
         <p className="text-center max-w-xl mx-auto mb-8">
