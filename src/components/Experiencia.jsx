@@ -4,39 +4,40 @@ const PageProjeto = () => {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col items-center">
       
-      <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-12 w-full bg-black">
+      <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 w-full bg-black">
   {/* Texto */}
-  <div className="md:w-1/2">
-    <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-      Uma <span className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Experiência</span> <br />
+  <div className="md:w-1/2 w-full text-center md:text-left">
+    <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
+      Uma <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Experiência</span> <br />
       Aromática
     </h1>
-    <p className="text-lg md:text-xl mt-6 text-gray-300">
+    <p className="text-base md:text-xl mt-6 text-gray-300">
       O Smell Pro é a solução perfeita para transformar a atmosfera do seu estabelecimento alimentício. Utilizando tecnologia avançada e fragrâncias especialmente desenvolvidas, nosso sistema de difusão de aromas cria um ambiente acolhedor e atrativo que faz com que seus clientes queiram voltar sempre.
     </p>
-    <button className="mt-8 px-8 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
+    <button className="mt-8 px-6 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
       Saiba mais
     </button>
   </div>
 
   {/* Imagem */}
-  <div className="md:w-1/2 flex justify-center md:justify-end mt-12 md:mt-0">
+  <div className="md:w-1/2 w-full flex justify-center md:justify-end mt-12 md:mt-0">
     <img
       src="./src/assets/vaiMeNegarUmPratoDeComida.svg" 
       alt="Prato de Comida"
-      className="w-72  md:w-96 h-auto object-cover rounded-xl shadow-xl"
+      className="w-3/4 md:w-96 object-cover rounded-xl shadow-xl"
     />
   </div>
 </section>
+
 
 
       {/* Seção Smell Pro */}
       <section className="flex flex-col md:flex-row items-center justify-between p-8 w-full">
         <div className="md:w-1/2 flex justify-center md:justify-start mt-8 md:mt-0">
           <img
-            src="./src/assets/caixa.svg" // Substitua pelo URL da sua imagem do Smell Pro
+            src="./src/assets/caixa.svg"
             alt="Smell Pro"
-            className="w-1/3 h-auto rounded-xl shadow-lg"
+            className="w-1/2  mb-8  md:w-96 object-cover rounded-xl shadow-xl"
           />
         </div>
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
@@ -60,7 +61,7 @@ const PageProjeto = () => {
               <p>Aromas agradáveis que convidam as pessoas a entrarem e experimentarem seu espaço.</p>
             </li>
           </ul>
-          <button className="mt-6 px-6 py-3 bg-orange-500 rounded-full hover:bg-orange-600">
+          <button className="mt-8 px-8 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
             Saiba mais
           </button>
         </div>
@@ -98,9 +99,9 @@ const PageProjeto = () => {
           Nossas fragrâncias são formuladas com ingredientes naturais, garantindo não só um aroma irresistível, mas também a segurança e bem-estar dos seus clientes. Nosso dispositivo é compacto, discreto e permite ajustes de intensidade e temporização, proporcionando total controle sobre a experiência olfativa do seu ambiente.
         </p>
         <div className="flex justify-center">
-          <button className="bg-gray-800 text-white py-2 px-4 rounded">
-            Saiba mais
-          </button>
+        <button className="mt-8 px-8 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
+          Saiba mais
+        </button>
         </div>
       </section>
 
@@ -143,9 +144,9 @@ const PageProjeto = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="bg-gray-800 text-white py-2 px-4 rounded">
-            Saiba mais
-          </button>
+        <button className="mt-8 px-8 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
+          Saiba mais
+        </button>
         </div>
       </section>
       

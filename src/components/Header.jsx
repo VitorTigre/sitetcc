@@ -26,7 +26,7 @@ function Navbar() {
 
         {/* Logotipo centralizado */}
         <div className="text-lg font-bold text-gradient absolute md:static left-1/2 transform -translate-x-1/2 md:translate-x-0">
-          <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">SmellPro</span>
+          <span className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-green-600 bg-clip-text text-transparent">SmellPro</span>
         </div>
 
         {/* Links de navegação para desktop centralizados */}
