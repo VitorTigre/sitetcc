@@ -40,7 +40,7 @@ function PageFuncionamento() {
           Este inovador sistema de difusão de aromas foi especialmente projetado para elevar a atmosfera do seu estabelecimento, combinando tecnologia avançada com facilidade de uso.
         </p>
         <p className="mt-4 text-lg">
-          O funcionamento do Smell Pro baseia-se em <span className="text-orange-500">quatro elementos principais</span>, que detalharemos a seguir:
+          O funcionamento do Smell Pro baseia-se em <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">quatro elementos principais</span>, que detalharemos a seguir:
         </p>
       </header>
 
