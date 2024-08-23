@@ -1,5 +1,11 @@
 import React from 'react';
 
+// Importando as imagens
+import disfusImage from '/src/assets/disfus.svg';
+import cartAroImage from '/src/assets/cartAro.svg';
+import tecMicImage from '/src/assets/tecMic.svg';
+import confPersoImage from '/src/assets/confPerso.svg';
+
 const Card = ({ title, imageSrc, description }) => {
   return (
     <div className="bg-gray-800 border-2 border-orange-500 text-white p-6 rounded-lg shadow-md mb-6">
@@ -24,7 +30,6 @@ const Card2 = ({ title, imageSrc, description }) => {
   );
 };
 
-
 // Componente principal App
 function PageFuncionamento() {
   return (
@@ -43,47 +48,43 @@ function PageFuncionamento() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           <Card2
             title="DISPOSITIVOS DE DIFUSÃO"
-            imageSrc="./src/assets/disfus.svg" 
+            imageSrc={disfusImage} 
           />
-
           <Card2
             title="CARTUCHOS AROMÁTICOS"
-            imageSrc="./src/assets/cartAro.svg"
+            imageSrc={cartAroImage}
           />
-
           <Card2
             title="TECNOLOGIA DE MICRODIFUSÃO"
-            imageSrc="./src/assets/tecMic.svg"
-
+            imageSrc={tecMicImage}
           />
           <Card2
             title="CONFIGURAÇÃO PERSONALIZÁVEL"
-            imageSrc="./src/assets/confPerso.svg"
+            imageSrc={confPersoImage}
           />
         </div>
       </section>
-
 
       <section className="mt-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           <Card
             title="DISPOSITIVOS DE DIFUSÃO"
-            imageSrc="./src/assets/disfus.svg" 
+            imageSrc={disfusImage} 
             description="Compactos e diretos, fáceis de instalar, liberam aromas de forma controlada e consistente."
           />
           <Card
             title="CARTUCHOS AROMÁTICOS"
-            imageSrc="./src/assets/cartAro.svg"
+            imageSrc={cartAroImage}
             description="Contêm misturas exclusivas de aromas, são substituíveis, fáceis de trocar e garantem aromas frescos e contínuos."
           />
           <Card
             title="TECNOLOGIA DE MICRODIFUSÃO"
-            imageSrc="./src/assets/tecMic.svg"
+            imageSrc={tecMicImage}
             description="Dispersa uniformemente partículas de aroma, proporcionando uma experiência olfativa agradável sem exagero."
           />
           <Card
             title="CONFIGURAÇÃO PERSONALIZÁVEL"
-            imageSrc="./src/assets/confPerso.svg"
+            imageSrc={confPersoImage}
             description="Permite ajustar a intensidade e temporização de liberação do aroma, adaptando-se às necessidades específicas do espaço."
           />
         </div>

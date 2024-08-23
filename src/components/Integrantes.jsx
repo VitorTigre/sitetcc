@@ -1,5 +1,10 @@
 import React from 'react';
 
+// Importando as imagens
+import ryanImage from '/src/assets/ryan.svg';
+import lucasImage from '/src/assets/lucas.svg';
+import vitorImage from '/src/assets/vitor.svg';
+
 const PageIntegrantes = () => {
   return (
     <div className="bg-black text-white min-h-screen p-8">
@@ -14,13 +19,13 @@ const PageIntegrantes = () => {
         {/* Ryan Moreira */}
         <div className="text-center">
           <img
-            src="./src/assets/ryan.svg"
+            src={ryanImage}
             alt="Ryan Moreira"
             className="w-48 h-48 md:w-72 h-72 object-cover rounded-lg mb-4 mx-auto"
           />
           <h3 className="text-xl font-bold">Ryan Moreira</h3>
           <p className="text-sm text-gray-300 max-w-xs mx-auto">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+          Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book
@@ -30,7 +35,7 @@ const PageIntegrantes = () => {
         {/* Lucas Lopes */}
         <div className="text-center">
           <img
-            src="./src/assets/lucas.svg"
+            src={lucasImage}
             alt="Lucas Nogueira"
             className="w-48 h-48 md:w-72 h-72 object-cover rounded-lg mb-4 mx-auto"
           />
@@ -46,7 +51,7 @@ const PageIntegrantes = () => {
         {/* Vitor Tigre */}
         <div className="text-center">
           <img
-            src="./src/assets/vitor.svg"
+            src={vitorImage}
             alt="Vitor Tigre"
             className="w-48 h-48 md:w-72 h-72 object-cover rounded-lg mb-4 mx-auto"
           />

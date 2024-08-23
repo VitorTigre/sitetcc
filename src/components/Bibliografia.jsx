@@ -1,4 +1,5 @@
 import React from 'react';
+import mulherImg from '/src/assets/mulher.svg';
 
 const PageBibliografia = () => {
   return (
@@ -31,7 +32,7 @@ const PageBibliografia = () => {
           </div>
           <div className="md:w-1/3">
             <img
-              src="./src/assets/mulher.svg"
+              src={mulherImg} // Use a variável importada aqui
               alt="Mulher cheirando uma toalha"
               className="w-full rounded-lg shadow-lg"
             />
@@ -67,3 +68,4 @@ const PageBibliografia = () => {
 };
 
 export default PageBibliografia;
+

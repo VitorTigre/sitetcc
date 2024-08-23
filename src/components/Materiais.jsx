@@ -1,5 +1,17 @@
 import React from 'react';
 
+// Importando as imagens
+import arduinoImage from '/src/assets/arduino.svg';
+import resistorImage from '/src/assets/resistor.svg';
+import ciImage from '/src/assets/cl.svg';
+import alimentacaoImage from '/src/assets/alimentacao.svg';
+import capacitorImage from '/src/assets/capacitor.svg';
+import potenciometroImage from '/src/assets/potenciometro.svg';
+import piezoImage from '/src/assets/piezo.svg';
+import bobinaImage from '/src/assets/bobina.svg';
+import mosfetImage from '/src/assets/mosfet.svg';
+import protoboardImage from '/src/assets/protoboard.svg';
+
 const Card = ({ image, title, subtitle }) => {
   return (
     <div className="bg-gray-800 border-2 border-green-400 rounded-xl p-4 flex flex-col items-center justify-center w-full sm:w-80 md:w-96 h-auto mx-auto my-8">
@@ -14,16 +26,16 @@ const Card = ({ image, title, subtitle }) => {
 
 const CardGrid = () => {
   const cards = [
-    { image: './src/assets/arduino.svg', title: 'Arduino R3', subtitle: 'Placa microcontroladora, o cérebro do sistema' },
-    { image: './src/assets/resistor.svg', title: 'Resistor 1K', subtitle: 'Alimentação de todos os componentes' },
-    { image: './src/assets/cl.svg', title: 'CI 555', subtitle: 'Estabilização de toda alimentação' },
-    { image: './src/assets/alimentacao.svg', title: 'Alimentação 15V', subtitle: 'Alimentação de todos os componentes' },
-    { image: './src/assets/capacitor.svg', title: 'Capacitores de Cerâmica', subtitle: 'Estabilização de toda alimentação' },
-    { image: './src/assets/potenciometro.svg', title: 'Potenciômetro', subtitle: 'Variação da potência de acordo com a posição' },
-    { image: './src/assets/piezo.svg', title: 'Piezo Elétrico', subtitle: 'Conversão de energia elétrica em vibrações' },
-    { image: './src/assets/bobina.svg', title: 'Bobina 680uH', subtitle: 'Condução de energia da fonte de alimentação' },
-    { image: './src/assets/mosfet.svg', title: 'Mosfet', subtitle: 'Aumento da eficiência dos circuitos de comutação' },
-    { image: './src/assets/protoboard.svg', title: 'Protoboard', subtitle: 'Montagem do circuito de testes' },
+    { image: arduinoImage, title: 'Arduino R3', subtitle: 'Placa microcontroladora, o cérebro do sistema' },
+    { image: resistorImage, title: 'Resistor 1K', subtitle: 'Alimentação de todos os componentes' },
+    { image: ciImage, title: 'CI 555', subtitle: 'Estabilização de toda alimentação' },
+    { image: alimentacaoImage, title: 'Alimentação 15V', subtitle: 'Alimentação de todos os componentes' },
+    { image: capacitorImage, title: 'Capacitores de Cerâmica', subtitle: 'Estabilização de toda alimentação' },
+    { image: potenciometroImage, title: 'Potenciômetro', subtitle: 'Variação da potência de acordo com a posição' },
+    { image: piezoImage, title: 'Piezo Elétrico', subtitle: 'Conversão de energia elétrica em vibrações' },
+    { image: bobinaImage, title: 'Bobina 680uH', subtitle: 'Condução de energia da fonte de alimentação' },
+    { image: mosfetImage, title: 'Mosfet', subtitle: 'Aumento da eficiência dos circuitos de comutação' },
+    { image: protoboardImage, title: 'Protoboard', subtitle: 'Montagem do circuito de testes' },
   ];
 
   return (
@@ -45,4 +57,4 @@ const CardGrid = () => {
   );
 };
 
-export default CardGrid;
+export default CardGrid;
