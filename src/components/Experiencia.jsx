@@ -19,7 +19,7 @@ const PageProjeto = () => {
             Uma <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Experiência</span> <br />
             Aromática
           </h1>
-          <p className="text-base md:text-xl mt-6 text-gray-300">
+          <p className="text-base md:text-xl mt-6 text-white-300">
             O Smell Pro é a solução perfeita para transformar a atmosfera do seu estabelecimento alimentício. Utilizando tecnologia avançada e fragrâncias especialmente desenvolvidas, nosso sistema de difusão de aromas cria um ambiente acolhedor e atrativo que faz com que seus clientes queiram voltar sempre.
           </p>
           <button className="mt-8 px-6 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
