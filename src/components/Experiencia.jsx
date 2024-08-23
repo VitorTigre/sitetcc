@@ -110,7 +110,7 @@ const PageProjeto = () => {
 
       <section className="mt-16 p-8 w-full">
   <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-8">
-    Ramo Alimentício
+    <span className='text-white'>Ramo</span>  Alimentício
   </h2>
   <p className="text-center max-w-xl mx-auto mb-8">
     No ramo alimentício, a experiência do cliente é tudo. E uma das maneiras mais eficazes de criar uma conexão emocional com seus clientes é através dos sentidos. O Smell Pro foi desenvolvido especificamente para ajudar donos de restaurantes, cafeterias, padarias, pizzarias e outros estabelecimentos alimentícios a criar uma atmosfera que não apenas acolhe, mas também encanta.
