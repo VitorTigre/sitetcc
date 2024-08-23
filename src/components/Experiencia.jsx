@@ -73,7 +73,7 @@ const PageProjeto = () => {
 
       <section className="p-8 w-full">
         <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-8">
-          <span className="text-4xl font-bold text-white">Nossos</span> Fragrâncias
+          <span className="text-4xl font-bold text-white">Nossas</span> Fragrâncias
         </h1>
         <div className="flex justify-center space-x-8 mb-8">
           {/* Ícone Chocolate */}
@@ -108,50 +108,55 @@ const PageProjeto = () => {
         </div>
       </section>
 
-      {/* Seção Ramo Alimentício */}
       <section className="mt-16 p-8 w-full">
-        <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-8">
-          Ramo Alimentício
-        </h2>
-        <p className="text-center max-w-xl mx-auto mb-8">
-          No ramo alimentício, a experiência do cliente é tudo. E uma das maneiras mais eficazes de criar uma conexão emocional com seus clientes é através dos sentidos. O Smell Pro foi desenvolvido especificamente para ajudar donos de restaurantes, cafeterias, padarias, pizzarias e outros estabelecimentos alimentícios a criar uma atmosfera que não apenas acolhe, mas também encanta.
-        </p>
-        <div className="flex justify-center space-x-8 mb-8">
-          {/* Ícone Cozinha */}
-          <div className="text-center">
-            <div className="bg-orange-500 rounded-full p-4 mb-4">
-              <img src={sopaImg} alt="Sopa" />
-            </div>
-            <p>Cozinha</p>
-          </div>
-          {/* Ícone Café */}
-          <div className="text-center">
-            <div className="bg-orange-500 rounded-full p-4 mb-4">
-              <img src={hotCoffeeImg} alt="Café" />
-            </div>
-            <p>Café</p>
-          </div>
-          {/* Ícone Pão */}
-          <div className="text-center">
-            <div className="bg-orange-500 rounded-full p-4 mb-4">
-              <img src={paoImg} alt="Pão" />
-            </div>
-            <p>Pão</p>
-          </div>
-          {/* Ícone Pizza */}
-          <div className="text-center">
-            <div className="bg-orange-500 rounded-full p-4 mb-4">
-              <img src={pizzaImg} alt="Pizza" />
-            </div>
-            <p>Pizza</p>
-          </div>
+  <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent mb-8">
+    Ramo Alimentício
+  </h2>
+  <p className="text-center max-w-xl mx-auto mb-8">
+    No ramo alimentício, a experiência do cliente é tudo. E uma das maneiras mais eficazes de criar uma conexão emocional com seus clientes é através dos sentidos. O Smell Pro foi desenvolvido especificamente para ajudar donos de restaurantes, cafeterias, padarias, pizzarias e outros estabelecimentos alimentícios a criar uma atmosfera que não apenas acolhe, mas também encanta.
+  </p>
+  <div className="flex flex-wrap justify-center gap-8 mb-8">
+    <div className="grid grid-cols-2 gap-8 w-full md:flex md:flex-wrap md:justify-center">
+      {/* Ícone Cozinha */}
+      <div className="text-center mb-8 flex flex-col items-center">
+        <div className="bg-orange-500 rounded-full p-4 mb-4">
+          <img src={sopaImg} alt="Sopa" className="w-24 h-24 object-cover" />
         </div>
-        <div className="flex justify-center">
-          <button className="mt-8 px-8 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
-            Saiba mais
-          </button>
+        <p>Cozinha</p>
+      </div>
+      {/* Ícone Café */}
+      <div className="text-center mb-8 flex flex-col items-center">
+        <div className="bg-orange-500 rounded-full p-4 mb-4">
+          <img src={hotCoffeeImg} alt="Café" className="w-24 h-24 object-cover" />
         </div>
-      </section>
+        <p>Café</p>
+      </div>
+      {/* Ícone Pão */}
+      <div className="text-center mb-8 flex flex-col items-center">
+        <div className="bg-orange-500 rounded-full p-4 mb-4">
+          <img src={paoImg} alt="Pão" className="w-24 h-24 object-cover" />
+        </div>
+        <p>Pão</p>
+      </div>
+      {/* Ícone Pizza */}
+      <div className="text-center mb-8 flex flex-col items-center">
+        <div className="bg-orange-500 rounded-full p-4 mb-4">
+          <img src={pizzaImg} alt="Pizza" className="w-24 h-24 object-cover" />
+        </div>
+        <p>Pizza</p>
+      </div>
+    </div>
+  </div>
+  <div className="flex justify-center">
+    <button className="mt-8 px-8 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
+      Saiba mais
+    </button>
+  </div>
+</section>
+
+
+
+
       
     </div>
   );
