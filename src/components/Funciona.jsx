@@ -10,16 +10,17 @@ const Card = ({ title, imageSrc, description }) => {
   return (
     <div className="bg-gray-800 border-2 border-orange-500 text-white p-6 rounded-lg shadow-md mb-6 w-full sm:w-[50rem]"> {/* Largura responsiva */}
       <h2 className="text-lg font-semibold mb-2 text-center bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">{title}</h2>
-      <div className='flex items-center justify-center p-8'> 
-        <div className="bg-orange-500 flex justify-center mb-4 border-2 rounded-xl p-4" style={{ borderColor: '#5D8B29' }}>
+      <div className='flex flex-col sm:flex-row items-center justify-center p-8'> {/* Flex para desktop */}
+        <div className="bg-orange-500 flex justify-center mb-4 sm:mb-0 border-2 rounded-xl p-4" style={{ borderColor: '#5D8B29' }}>
           <img src={imageSrc} alt={title} className="w-20 h-20 sm:w-24 sm:h-24 object-contain" /> {/* Tamanho da imagem ajustado */}
         </div>
-        <p className="text-lg text-center w-full px-6">{description}</p> {/* Aumentando o tamanho da fonte */}
-
+        <p className="text-lg text-center sm:text-left w-full px-6">{description}</p> {/* Aumentando o tamanho da fonte */}
       </div>
     </div>
   );
 };
+
+
 
 const Card2 = ({ title, imageSrc, description }) => {
   return (
