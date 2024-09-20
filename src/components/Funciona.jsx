@@ -14,7 +14,8 @@ const Card = ({ title, imageSrc, description }) => {
         <div className="bg-orange-500 flex justify-center mb-4 border-2 rounded-xl p-4" style={{ borderColor: '#5D8B29' }}>
           <img src={imageSrc} alt={title} className="w-20 h-20 sm:w-24 sm:h-24 object-contain" /> {/* Tamanho da imagem ajustado */}
         </div>
-        <p className="text-sm text-center w-full px-6">{description}</p> {/* Ajustando a largura do texto */}
+        <p className="text-lg text-center w-full px-6">{description}</p> {/* Aumentando o tamanho da fonte */}
+
       </div>
     </div>
   );
