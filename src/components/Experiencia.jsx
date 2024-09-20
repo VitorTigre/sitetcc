@@ -4,7 +4,6 @@ import caixaImg from '/src/assets/caixa.svg';
 import chocolateImg from '/src/assets/chocolate.svg';
 import ventoImg from '/src/assets/vento.svg';
 import garfoFacaImg from '/src/assets/garfoFaca.svg';
-import leiteImg from '/src/assets/leite.svg';
 import queijoImg from '/src/assets/queijo.svg';
 import sopaImg from '/src/assets/sopa.svg';
 import hotCoffeeImg from '/src/assets/hotCoffee.svg';
@@ -73,9 +72,8 @@ const PageProjeto = () => {
               <p className="text-[20px] md:text-[30px]">Aromas agradáveis que convidam as pessoas a entrarem e experimentarem seu espaço.</p>
             </li>
           </ul>
-          <button className="mt-8 px-8 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
-            Saiba mais
-          </button>
+          
+          
         </div>
       </section>
 

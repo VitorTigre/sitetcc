@@ -7,7 +7,7 @@ import vitorImage from '/src/assets/vitor.svg';
 
 const PageIntegrantes = () => {
   return (
-    <div className="bg-black text-white min-h-screen p-8">
+    <div className="bg-black text-white min-h-screen p-8 ">
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold">Quem são os</h1>
         <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent leading-loose">
