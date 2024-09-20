@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-black text-white p-4 flex items-center relative z-50 pt-6">
+    <nav className="bg-black text-white p-4 flex items-center relative z-50 pt-6 ">
     
       <div className="w-full flex items-center justify-between">
         
@@ -28,7 +28,7 @@ function Navbar() {
           <span className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-green-600 bg-clip-text text-transparent">SmellPro</span>
         </div>
 
-        <div className="hidden md:flex flex-1 justify-center space-x-8">
+        <div className="hidden md:flex flex-1 justify-center space-x-8 mb-4 ">
           <Link to="/integrantes" className="hover:text-yellow-400 text-sm">Integrantes</Link>
           <Link to="/bibliografia" className="hover:text-yellow-400 text-sm">Bibliografia</Link>
           <Link to="/materiais" className="hover:text-yellow-400 text-sm">Materiais</Link>
@@ -47,7 +47,7 @@ function Navbar() {
         </div>
 
         <div className="flex flex-col h-full justify-center items-center space-y-8 p-4">
-          <Link to="/" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Integrantes</Link>
+          <Link to="/Integrantes" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Integrantes</Link>
           <Link to="/bibliografia" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Bibliografia</Link>
           <Link to="/materiais" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Materiais</Link>
           <Link to="/experiencia" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Projeto</Link>
