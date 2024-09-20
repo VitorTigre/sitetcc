@@ -37,7 +37,7 @@ const PageProjeto = () => {
           <img
             src={comidaImg}
             alt="Prato de Comida"
-            className="w-3/4 md:w-96 max-w-[400px] object-cover rounded-xl shadow-xl"
+            class="w-full md:w-[600px] max-w-[600px] object-cover rounded-xl shadow-xl"
           />
         </div>
       </section>
@@ -105,12 +105,13 @@ const PageProjeto = () => {
             </div>
           </div>
         </div>
-        <p className="text-justify text-[20px] md:text-[30px] max-w-xl mx-auto mb-8">
-          Nossas fragrâncias são formuladas com ingredientes {' '}
-          <span className="text-orange-500">naturais</span>, garantindo não só um {' '}
-          <span className="text-orange-500">aroma</span>{' '}
-          irresistível, mas também a segurança e bem-estar dos seus clientes. Nosso dispositivo é compacto, discreto e permite ajustes de intensidade e temporização, proporcionando total controle sobre a experiência olfativa do seu ambiente.
-        </p>
+        <p className="text-justify text-[20px] md:text-[30px] max-w-3xl mx-auto mb-8">
+  Nossas fragrâncias são formuladas com ingredientes{' '}
+  <span className="text-orange-500"> naturais</span>, garantindo não só um{' '}
+  <span className="text-orange-500"> aroma</span>{' '}
+  irresistível, mas também a segurança e bem-estar dos seus clientes. Nosso dispositivo é compacto, discreto e permite ajustes de intensidade e temporização, proporcionando total controle sobre a experiência olfativa do seu ambiente.
+</p>
+
       </section>
 
       {/* Seção Ramo Alimentício */}
@@ -150,7 +151,7 @@ const PageProjeto = () => {
             </div>
           </div>
         </div>
-        <p className="text-justify text-[20px] md:text-[30px] max-w-xl mx-auto mb-8">
+        <p className="text-justify text-[20px] md:text-[30px] max-w-3xl mx-auto mb-8">
           No ramo alimentício, a {' '}
           <span className="text-orange-500">experiência do cliente</span>{' '} é tudo. E uma das maneiras mais eficazes de criar uma conexão emocional com seus clientes é através dos sentidos. O Smell Pro foi desenvolvido especificamente para ajudar donos de restaurantes, cafeterias, padarias, pizzarias e outros estabelecimentos alimentícios a criar uma atmosfera que não apenas acolhe, mas também encanta.
         </p>

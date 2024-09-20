@@ -14,7 +14,7 @@ import protoboardImage from '/src/assets/protoboard.svg';
 
 const Card = ({ image, title, subtitle }) => {
   return (
-    <div className="bg-gray-800 border-2 border-green-400 rounded-xl p-4 flex flex-col items-center justify-center w-full sm:w-80 md:w-96 h-auto mx-auto my-8">
+    <div className="bg-gray-800 border-2 rounded-xl p-4 flex flex-col items-center justify-center w-full sm:w-80 md:w-96 h-auto mx-auto my-8" style={{ borderColor: '#5D8B29' }}>
       <div className="mb-4 w-full">
         <img src={image} alt={title} className="w-full h-48 object-contain rounded-lg" />
       </div>
@@ -23,6 +23,7 @@ const Card = ({ image, title, subtitle }) => {
     </div>
   );
 };
+
 
 const CardGrid = () => {
   const cards = [

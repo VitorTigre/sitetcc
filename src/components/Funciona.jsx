@@ -34,20 +34,25 @@ const Card2 = ({ title, imageSrc, description }) => {
 function PageFuncionamento() {
   return (
     <div className="bg-black text-white min-h-screen p-8">
-      
+
       <header className="text-center mb-12">
         <h1 className="text-[100px] font-bold text-white">Como <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Funciona?</span></h1>
+        <br />
+
         <p className="mt-4 text-[30px]">
-          Este inovador sistema de difusão de aromas foi especialmente projetado para elevar a atmosfera do seu estabelecimento, combinando tecnologia avançada com facilidade de uso.
+          Este inovador sistema de difusão de aromas foi especialmente projetado para{' '} <span className="text-orange-500">elevar</span>{' '}a atmosfera do seu estabelecimento, combinando{' '} <span className="text-orange-500">tecnologia avançada</span>{' '} com{' '} <span className="text-orange-500">facilidade de uso</span>.
         </p>
         <p className="mt-4 text-[30px]">
-          O funcionamento do Smell Pro baseia-se em <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">quatro elementos principais</span>, que detalharemos a seguir:
+          O funcionamento do Smell Pro baseia-se em <span className="text-orange-500">quatro elementos principais</span>, que detalharemos a seguir:
         </p>
       </header>
 
+      <br />
+
+
       <section className="mt-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
-          <Card2
+          <Card2 
             title="DISPOSITIVOS DE DIFUSÃO"
             imageSrc={disfusImage} 
           />
