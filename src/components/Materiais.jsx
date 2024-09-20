@@ -19,7 +19,7 @@ const Card = ({ image, title, subtitle }) => {
         <img src={image} alt={title} className="w-full h-48 object-contain rounded-lg" />
       </div>
       <h3 className="text-white text-xl font-bold mb-2 text-center">{title}</h3>
-      <p className="text-gray-400 text-center">{subtitle}</p>
+      <p className="text-white-400 text-center">{subtitle}</p>
     </div>
   );
 };
