@@ -10,7 +10,7 @@ const PageIntegrantes = () => {
     <div className="bg-black text-white min-h-screen p-8">
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold">Quem são os</h1>
-        <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent leading-loose">
+        <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent h-28 leading-loose">
           Integrantes?
         </h2>
       </div>
@@ -41,7 +41,7 @@ const PageIntegrantes = () => {
             />
             <h3 className="text-xl font-bold">Lucas Nogueira</h3>
             <p className="text-sm text-gray-300 max-w-xs mx-auto">
-            Tenho 18 anos, gosto de T.I., mas pretendo seguir carreira na aviação. Sou muito prestativo com o grupo, ajudando em tudo o que for necessário. Gosto muito de design, que foi a área pela qual fui responsável no projeto.
+            Tenho 18 anos e, apesar do meu interesse por T.I., estou decidido a explorar novos horizontes na área da aviação. Além disso, sou apaixonado por design e tive a oportunidade de ser responsável por essa área no projeto.
             </p>
           </div>
         </div>
