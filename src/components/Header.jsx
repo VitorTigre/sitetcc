@@ -30,7 +30,7 @@ function Navbar() {
           <Link to="/integrantes" className="hover:text-yellow-400 text-sm">Integrantes</Link>
           <Link to="/bibliografia" className="hover:text-yellow-400 text-sm">Bibliografia</Link>
           <Link to="/materiais" className="hover:text-yellow-400 text-sm">Materiais</Link>
-          <Link to="/projeto" className="hover:text-yellow-400 text-sm">Projeto</Link> {/* Corrigido para /projeto */}
+          <Link to="/" className="hover:text-yellow-400 text-sm">Projeto</Link> {/* Corrigido para /projeto */}
           <Link to="/funcionamento" className="hover:text-yellow-400 text-sm">Funcionamento</Link>
         </div>
       </div>
@@ -46,7 +46,7 @@ function Navbar() {
           <Link to="/integrantes" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Integrantes</Link>
           <Link to="/bibliografia" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Bibliografia</Link>
           <Link to="/materiais" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Materiais</Link>
-          <Link to="/projeto" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Projeto</Link> {/* Corrigido para /projeto */}
+          <Link to="/" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Projeto</Link> {/* Corrigido para /projeto */}
           <Link to="/funcionamento" className="hover:text-yellow-400 text-2xl" onClick={handleLinkClick}>Funcionamento</Link>
         </div>
       </div>

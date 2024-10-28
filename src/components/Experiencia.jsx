@@ -37,7 +37,7 @@ const PageProjeto = () => {
           <img
             src={comidaImg}
             alt="Prato de Comida"
-            class="w-full md:w-[600px] max-w-[600px] object-cover rounded-xl shadow-xl"
+            className="w-full md:w-[600px] max-w-[600px] object-cover rounded-xl shadow-xl"
           />
         </div>
       </section>
