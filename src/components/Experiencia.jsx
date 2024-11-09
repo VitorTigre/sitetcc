@@ -9,6 +9,7 @@ import sopaImg from '/src/assets/sopa.svg';
 import hotCoffeeImg from '/src/assets/hotCoffee.svg';
 import paoImg from '/src/assets/pao.svg';
 import pizzaImg from '/src/assets/pizza.svg';
+import ReactPlayer from 'react-player';
 
 const PageProjeto = () => {
   return (
@@ -72,6 +73,8 @@ const PageProjeto = () => {
               <p className="text-[20px] md:text-[30px]">Aromas agradáveis que convidam as pessoas a entrarem e experimentarem seu espaço.</p>
             </li>
           </ul>
+          
+          
         </div>
       </section>
 
@@ -84,6 +87,7 @@ const PageProjeto = () => {
         <br />
 
         <div className="flex flex-wrap justify-center space-x-8 mb-8">
+          {/* Ícone Chocolate */}
           <div className="text-center">
             <div className="bg-orange-500 rounded-full p-4 mb-4 flex items-center justify-center">
               <img src={chocolateImg} alt="Chocolate" className="w-24 h-24 object-contain" />
@@ -92,6 +96,7 @@ const PageProjeto = () => {
               <p className="text-[20px] md:text-[30px]">Chocolate</p>
             </div>
           </div>
+          {/* Ícone Queijo */}
           <div className="text-center">
             <div className="bg-orange-500 rounded-full p-4 mb-4 flex items-center justify-center">
               <img src={queijoImg} alt="Queijo" className="w-24 h-24 object-contain" />
@@ -102,17 +107,18 @@ const PageProjeto = () => {
           </div>
         </div>
         <p className="text-justify text-[20px] md:text-[30px] max-w-3xl mx-auto mb-8">
-          Nossas fragrâncias são formuladas com ingredientes{' '}
-          <span className="text-orange-500">naturais</span>, garantindo não só um{' '}
-          <span className="text-orange-500">aroma</span>{' '}
-          irresistível, mas também a segurança e bem-estar dos seus clientes. Nosso dispositivo é compacto, discreto e permite ajustes de intensidade e temporização, proporcionando total controle sobre a experiência olfativa do seu ambiente.
-        </p>
+  Nossas fragrâncias são formuladas com ingredientes{' '}
+  <span className="text-orange-500"> naturais</span>, garantindo não só um{' '}
+  <span className="text-orange-500"> aroma</span>{' '}
+  irresistível, mas também a segurança e bem-estar dos seus clientes. Nosso dispositivo é compacto, discreto e permite ajustes de intensidade e temporização, proporcionando total controle sobre a experiência olfativa do seu ambiente.
+</p>
+
       </section>
 
       {/* Seção Ramo Alimentício */}
       <section className="mt-16 p-8 w-full">
         <h2 className="text-[50px] md:text-[100px] font-bold text-center text-white leading-tight">
-          Ramo <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Alimentício</span>
+          Ramo <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Alimentício</span> 
         </h2>
 
         <br />
@@ -120,21 +126,25 @@ const PageProjeto = () => {
 
         <div className="flex flex-wrap justify-center gap-8 mb-8">
           <div className="grid grid-cols-2 gap-8 w-full md:flex md:flex-wrap md:justify-center">
+            {/* Ícone Cozinha */}
             <div className="text-center mb-8 flex flex-col items-center">
               <div className="bg-orange-500 rounded-full p-4 mb-4 flex items-center justify-center">
                 <img src={sopaImg} alt="Sopa" className="w-24 h-24 object-contain" />
               </div>
             </div>
+            {/* Ícone Café */}
             <div className="text-center mb-8 flex flex-col items-center">
               <div className="bg-orange-500 rounded-full p-4 mb-4 flex items-center justify-center">
                 <img src={hotCoffeeImg} alt="Café" className="w-24 h-24 object-contain" />
               </div>
             </div>
+            {/* Ícone Pão */}
             <div className="text-center mb-8 flex flex-col items-center">
               <div className="bg-orange-500 rounded-full p-4 mb-4 flex items-center justify-center">
                 <img src={paoImg} alt="Pão" className="w-24 h-24 object-contain" />
               </div>
             </div>
+            {/* Ícone Pizza */}
             <div className="text-center mb-8 flex flex-col items-center">
               <div className="bg-orange-500 rounded-full p-4 mb-4 flex items-center justify-center">
                 <img src={pizzaImg} alt="Pizza" className="w-24 h-24 object-contain" />
@@ -142,43 +152,49 @@ const PageProjeto = () => {
             </div>
           </div>
         </div>
-        <p className="text-justify text-[20px] md:text-[30px] max-w-3xl mx-auto">
-          Transforme seu negócio com a tecnologia Smell Pro e cative seus clientes antes mesmo do primeiro prato.
+        <p className="text-justify text-[20px] md:text-[30px] max-w-3xl mx-auto mb-8">
+          No ramo alimentício, a {' '}
+          <span className="text-orange-500">experiência do cliente</span>{' '} é tudo. E uma das maneiras mais eficazes de criar uma conexão emocional com seus clientes é através dos sentidos. O Smell Pro foi desenvolvido especificamente para ajudar donos de restaurantes, cafeterias, padarias, pizzarias e outros estabelecimentos alimentícios a criar uma atmosfera que não apenas acolhe, mas também encanta.
         </p>
       </section>
 
-      {/* Títulos e vídeos */}
-      <div className="w-full px-6 md:px-16 py-12 bg-black">
-        <h1 className="text-[50px] md:text-[100px] font-bold text-center text-white leading-tight">
-          <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Funcionamento e Modo de Uso</span>
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-          <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden border-4 border-orange-500">
-            <iframe
-              width="560"
-              height="315"
-              src="https://youtu.be/KByS2XakQeY?si=60yJrgweCBZ1wYBf"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
-              allowFullScreen
-            ></iframe>
-          </div>
-          <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden border-4 border-orange-500">
-            <iframe
-              width="560"
-              height="315"
-              src="https://youtu.be/PPY6MZRC0oI?si=Hdi8cUTy5cxguO3j"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+{/* Seção de vídeos */}
+<section className="w-full px-6 md:px-16 py-12 bg-black">
+  <h1 className="text-[50px] md:text-[100px] font-bold text-center text-white leading-tight">
+    <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">Funcionamento e Modo de Uso</span>
+  </h1>
+  
+  {/* Contêiner para os vídeos */}
+  <div className="mt-12 flex flex-col gap-8 items-center">
+    
+    {/* Video 1 */}
+    <div className="relative w-full max-w-[90%] md:max-w-[70%] mx-auto">
+      <div className="border-4 border-amber-400 rounded-lg">
+        <ReactPlayer
+          url="https://youtu.be/5-f5FjEyN6I?si=kUHX6KKB45vcjaZd"
+          width="100%" // Player vai preencher a largura do contêiner
+          height="500px" // A altura será ajustada automaticamente para manter a proporção
+          playing
+          controls
+        />
       </div>
+    </div>
 
+    {/* Video 2 */}
+    <div className="relative w-full max-w-[90%] md:max-w-[70%] mx-auto">
+      <div className="border-4 border-amber-400 rounded-lg">
+        <ReactPlayer
+          url="https://youtu.be/5-f5FjEyN6I?si=kUHX6KKB45vcjaZd"
+          width="100%" // Player vai preencher a largura do contêiner
+          height="500px" // A altura será ajustada automaticamente para manter a proporção
+          playing
+          controls
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
     </div>
   );
 };
