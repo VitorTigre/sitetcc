@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef} from 'react';
 import comidaImg from '/src/assets/vaiMeNegarUmPratoDeComida.svg'; // Atualize conforme necessário
 import caixaImg from '/src/assets/caixa.svg';
 import chocolateImg from '/src/assets/chocolate.svg';
@@ -12,6 +12,16 @@ import pizzaImg from '/src/assets/pizza.svg';
 import ReactPlayer from 'react-player';
 
 const PageProjeto = () => {
+
+  const videoRef = useRef(null);
+
+  // Função para rolar até o vídeo com suavidade
+  const scrollToVideo = () => {
+    if (videoRef.current) {
+      videoRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="bg-black text-white min-h-screen flex flex-col items-center">
 
@@ -29,7 +39,10 @@ const PageProjeto = () => {
             <span className="text-orange-500">fragrâncias</span>{' '}
             especialmente desenvolvidas, nosso sistema de difusão de aromas cria um ambiente acolhedor e atrativo que faz com que seus clientes queiram voltar sempre.
           </p>
-          <button className="mt-8 px-6 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300">
+          <button
+            className="mt-8 px-6 py-3 border border-gray-300 rounded-full text-gray-300 hover:bg-white hover:text-black transition duration-300"
+            onClick={scrollToVideo} // Chama a função ao clicar
+          >
             Saiba mais
           </button>
         </div>
@@ -168,7 +181,7 @@ const PageProjeto = () => {
   <div className="mt-12 flex flex-col gap-8 items-center">
     
     {/* Video 1 */}
-    <div className="relative w-full max-w-[90%] md:max-w-[70%] mx-auto">
+    <div ref={videoRef} className="relative w-full max-w-[90%] md:max-w-[70%] mx-auto">
       <div className="border-4 border-amber-400 rounded-lg">
         <ReactPlayer
           url="https://youtu.be/5-f5FjEyN6I?si=kUHX6KKB45vcjaZd"
