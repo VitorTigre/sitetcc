@@ -10,7 +10,12 @@ import potenciometroImage from '/src/assets/potenciometro.svg';
 import piezoImage from '/src/assets/piezo.svg';
 import bobinaImage from '/src/assets/bobina.svg';
 import mosfetImage from '/src/assets/mosfet.svg';
+import bomba from '/src/assets/bomba.png';
 import protoboardImage from '/src/assets/protoboard.svg';
+import botao from '/src/assets/botao.png';
+import fitaLed from '/src/assets/fitaLed.png';
+import capacitor from '/src/assets/capacitor.png';
+import displayLcd from '/src/assets/displayLcd.png';
 
 const Card = ({ image, title, subtitle }) => {
   return (
@@ -27,15 +32,15 @@ const Card = ({ image, title, subtitle }) => {
 
 const CardGrid = () => {
   const cards = [
-    { image: arduinoImage, title: 'Arduino R3', subtitle: 'Placa microcontroladora, o cérebro do sistema' },
-    { image: resistorImage, title: 'Resistor 1K', subtitle: 'Alimentação de todos os componentes' },
-    { image: ciImage, title: 'CI 555', subtitle: 'Estabilização de toda alimentação' },
+    { image: arduinoImage, title: 'Arduino Uno', subtitle: 'Placa microcontroladora, o cérebro do sistema' },
+    { image: resistorImage, title: 'Resistores 1K', subtitle: 'Alimentação de todos os componentes' },
+    { image: bomba, title: 'Bomba Submersível', subtitle: 'Alimentação dos Aromas' },
     { image: alimentacaoImage, title: 'Alimentação 15V', subtitle: 'Alimentação de todos os componentes' },
-    { image: capacitorImage, title: 'Capacitores de Cerâmica', subtitle: 'Estabilização de toda alimentação' },
-    { image: potenciometroImage, title: 'Potenciômetro', subtitle: 'Variação da potência de acordo com a posição' },
+    { image: capacitor, title: 'Capacitores', subtitle: 'Estabilização de toda alimentação' },
+    { image: botao, title: 'Botão', subtitle: 'Ativação e Funcionalidades' },
     { image: piezoImage, title: 'Piezo Elétrico', subtitle: 'Conversão de energia elétrica em vibrações' },
-    { image: bobinaImage, title: 'Bobina 680uH', subtitle: 'Condução de energia da fonte de alimentação' },
-    { image: mosfetImage, title: 'Mosfet', subtitle: 'Aumento da eficiência dos circuitos de comutação' },
+    { image: fitaLed, title: 'Fita Led', subtitle: 'Decoração e Iluminação do projeto' },
+    { image: displayLcd, title: 'Display Lcd 16x2', subtitle: 'Exibir informações sobre o projeto' },
     { image: protoboardImage, title: 'Protoboard', subtitle: 'Montagem do circuito de testes' },
   ];
 
