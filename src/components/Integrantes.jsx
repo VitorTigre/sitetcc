@@ -3,7 +3,7 @@ import React from 'react';
 // Importando as imagens
 import ryanImage from '/src/assets/ryan.svg';
 import lucasImage from '/src/assets/lucas.svg';
-import vitorImage from '/src/assets/vitor.svg';
+import vitorImage from '/src/assets/tigrinhoarrumado.jpg';
 
 const PageIntegrantes = () => {
   return (
@@ -47,12 +47,12 @@ const PageIntegrantes = () => {
         </div>
 
         {/* Vitor Tigre */}
-        <div className="relative text-center p-0.5 bg-gradient-to-r from-amber-600 to-amber-400 rounded-3xl md:p-0 md:rounded-none"> {/* Remover borda e cantos arredondados no desktop */}
-          <div className="bg-black rounded-3xl md:rounded-none p-6"> {/* Remover cantos arredondados no desktop */}
+        <div className="relative text-center p-0.5 bg-gradient-to-r from-amber-600 to-amber-400 rounded-3xl md:p-0 md:rounded-none "> {/* Remover borda e cantos arredondados no desktop */}
+          <div className="bg-black rounded-3xl md:rounded-none p-6 "> {/* Remover cantos arredondados no desktop */}
             <img
               src={vitorImage}
               alt="Vitor Tigre"
-              className="w-48 h-48 md:w-72 md:h-72 object-cover rounded-lg md:rounded-none mb-4 mx-auto"
+              className="w-48 h-48 md:w-72 md:h-72 object-cover rounded-3xl  mb-4 mx-auto"
             />
             <h3 className="text-xl font-bold">Vitor Tigre</h3>
             <p className="text-sm text-gray-300 max-w-xs mx-auto">
