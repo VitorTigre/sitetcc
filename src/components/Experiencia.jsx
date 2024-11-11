@@ -184,7 +184,7 @@ const PageProjeto = () => {
     <div ref={videoRef} className="relative w-full max-w-[90%] md:max-w-[70%] mx-auto">
       <div className="border-4 border-amber-400 rounded-lg">
         <ReactPlayer
-          url="https://youtu.be/5-f5FjEyN6I?si=kUHX6KKB45vcjaZd"
+          url="https://youtu.be/MN4YiJ5Mx7M"
           width="100%" // Player vai preencher a largura do contêiner
           height="500px" // A altura será ajustada automaticamente para manter a proporção
           playing
@@ -197,7 +197,7 @@ const PageProjeto = () => {
     <div className="relative w-full max-w-[90%] md:max-w-[70%] mx-auto">
       <div className="border-4 border-amber-400 rounded-lg">
         <ReactPlayer
-          url="https://youtu.be/5-f5FjEyN6I?si=kUHX6KKB45vcjaZd"
+          url="https://youtu.be/5vHHV__g0Ls"
           width="100%" // Player vai preencher a largura do contêiner
           height="500px" // A altura será ajustada automaticamente para manter a proporção
           playing
